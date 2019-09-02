@@ -1,7 +1,7 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: true
-  disqus_shortname: jinho.dev"
+  disqus_shortname: "jinho.dev"
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: "UA-146894545-2"
@@ -14,7 +14,7 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-  - { icon: "github", link: "https://github.com/jinhokongm" }
+  - { icon: "github", link: "https://github.com/jinhokong" }
   - {
       icon: "linkedin",
       link: "https://www.linkedin.com/in/jinho-hong-a9693a134/",
