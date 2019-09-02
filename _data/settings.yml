@@ -4,12 +4,12 @@ disqus:
   disqus_shortname: jinho.dev"
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: "UA-146894545-1"
+google-ID: "UA-146894545-2"
 
 menu:
-  - { name: "Development", folder: "pages", file: "facts.html" }
-  - { name: "Book Review", folder: "pages", file: "resources.html" }
-  - { name: "Resume", folder: "pages", file: "documentation.html" }
+  - { name: "Development", folder: "pages", file: "development.html" }
+  - { name: "Book", folder: "pages", file: "book.html" }
+  - { name: "Resume", folder: "pages", file: "about.html" }
   - { name: "About", folder: "pages", file: "about.html" }
   - { name: "Contact", folder: "pages", file: "contact.html" }
 
