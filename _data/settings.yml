@@ -9,7 +9,6 @@ google-ID: "UA-146894545-2"
 menu:
   - { name: "Development", folder: "pages", file: "development.html" }
   - { name: "Book", folder: "pages", file: "book.html" }
-  - { name: "Resume", folder: "pages", file: "about.html" }
   - { name: "About", folder: "pages", file: "about.html" }
   - { name: "Contact", folder: "pages", file: "contact.html" }
 
