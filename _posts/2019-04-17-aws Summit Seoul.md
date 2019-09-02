@@ -4,7 +4,7 @@ title: "2019 AWS Summit Seoul 참관기 day 1 / 2"
 author: "jinho hong"
 categories: development
 tags: [aws, development, meetup]
-image: 2019-04-17-aws Summit Seoul.jpeg
+image: 2019-04-17-aws Summit Seoul.jpg
 ---
 
 ---

@@ -4,7 +4,7 @@ title: "피플 웨어를 읽고"
 author: "jinho hong"
 categories: book
 tags: [book, development, twil]
-image: peopleware.jpeg
+image: peopleware.jpg
 ---
 
 # Agenda
