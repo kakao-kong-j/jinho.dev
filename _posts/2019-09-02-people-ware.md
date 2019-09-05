@@ -56,7 +56,7 @@ image: peopleware.jpg
 
   [구글, 그들은 틀렸다. 개방적 사무실 문화는 직장을 파괴시킨다.](http://blog.jandi.com/ko/2015/07/07/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/)
 
-  [Open plan offices are a health and productivity risk - Canada Life | COVER](https://www.covermagazine.co.uk/cover/news/2344756/open-plan-offices-are-a-health-and-productivity-risk-canada-life)
+  [Open plan offices are a health and productivity risk - Canada Life](https://www.covermagazine.co.uk/cover/news/2344756/open-plan-offices-are-a-health-and-productivity-risk-canada-life)
 
   - 통계적으로는 2~3인 사무실이 가장 생산성이 향상되었다고 합니다.
   - 특이한 점은 개발 생산성이 떨어지는 개발자들의 사무실은 소음이 많고 자신의 사무실에 만족하지 못한다.
