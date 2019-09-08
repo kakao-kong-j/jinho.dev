@@ -7,7 +7,7 @@ tags: [development, twil, graphql]
 image: peopleware.jpg
 ---
 
-## Graphql Directives 란 무엇일까요?
+## Graphql Directives 란 무엇이고 왜 필요 할까요?
 
 [GraphQL](https://graphql.github.io/graphql-spec/June2018/#sec-Language.Directives)
 
@@ -15,7 +15,7 @@ image: peopleware.jpg
 
 > Directives provide a way to describe alternate runtime execution and type validation behavior in a GraphQL document.
 
-## 왜 Graphql Directives 가 필요할까?
+즉
 
 1. 관심사의 분리
 2. 반복되는 코드
