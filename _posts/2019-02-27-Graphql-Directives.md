@@ -4,7 +4,7 @@ title: "Graphql Directives"
 author: "jinho hong"
 categories: developemt
 tags: [development, twil, graphql]
-image: peopleware.jpg
+image: graphql-directives.jpg
 ---
 
 ## Graphql Directives 란 무엇이고 왜 필요 할까요?
@@ -34,6 +34,10 @@ image: peopleware.jpg
 ## We already Use
 
 `directive @cacheControl(maxAge: Int) on OBJECT | FIELD_DEFINITION`
+
+저희가 graphql 을 사용하고 있을때 자주 사용되는 [Apollo server](https://www.apollographql.com/docs/apollo-server/)에 함께 쓰이는 [apollo-cache-control](https://www.apollographql.com/docs/apollo-server/performance/caching/) 를 활용하는 방법중 하나인 `@cacheControl` 입니다.
+
+저희가
 
 # Default Directives
 
