@@ -4,7 +4,7 @@ title: "[TWIL] DynamoDB Deep Dive"
 author: "jinho hong"
 categories: development
 tags: [development, twil, javascript]
-image: regret.jpg
+image: amazon-dynamo-db.png
 ---
 
 ## **NoSQL 설계의 두 가지 주요 개념**

@@ -4,7 +4,7 @@ title: "한 단계씩 배워보는 GraphQL"
 author: "jinho hong"
 categories: development
 tags: [development, graphql, nodejs]
-image: resize.jpg
+image: graphql.png
 ---
 
 # 소개
