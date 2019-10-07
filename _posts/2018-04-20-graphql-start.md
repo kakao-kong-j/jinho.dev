@@ -67,10 +67,10 @@ resolve는 추상적으로 구현된 스키마와 서버의 기능을 실제 쿼
 
 ```js
 allUser: {
-type: new Graphql.GraphQLList(userType),
-resolve: function(_,_,_,_) {
-return fakeDatabase;
-}
+  type: new Graphql.GraphQLList(userType),
+  resolve: function(_,_,_,_) {
+    return fakeDatabase;
+  }
 }
 ```
 
