@@ -1,13 +1,13 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://jinho.dev'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Blog by Jinho Hong',
     subtitle:
       'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
@@ -27,11 +27,11 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Jinho Hong',
+      email: 'tpdleps@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'jinhokong',
       rss: '#',
       vk: '#',
     },
@@ -124,7 +124,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'G-ZB8ETMV2NT' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
@@ -170,6 +170,35 @@ module.exports = {
           }),
         ],
         precision: 8,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-favicon',
+      options: {
+        logo: './favicon.png',
+        appName: 'jinho.dev', // Inferred with your package.json
+        appDescription: null,
+        developerName: 'jinho hong',
+        developerURL: 'https://github.com/jinhokong',
+        dir: 'auto',
+        lang: 'en-US',
+        background: '#fff',
+        theme_color: '#fff',
+        display: 'standalone',
+        orientation: 'any',
+        start_url: '/?homescreen=1',
+        version: '1.0',
+
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          yandex: false,
+          windows: false,
+        },
       },
     },
   ],

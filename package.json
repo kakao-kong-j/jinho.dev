@@ -1,7 +1,7 @@
 {
   "version": "3.0.0",
-  "name": "gatsby-v2-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "name": "jinho.dev",
+  "description": "http://jinho.dev",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
@@ -13,7 +13,7 @@
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
+  "repository": "https://github.com/jinhokong/jinho.dev.git",
   "keywords": [
     "gatsby",
     "blog",
@@ -21,12 +21,13 @@
     "theme",
     "starter"
   ],
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Jinho hong",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.1",
     "gatsby": "^2.0.22",
     "gatsby-plugin-catch-links": "^2.0.4",
+    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.6",
     "gatsby-plugin-google-fonts": "latest",
