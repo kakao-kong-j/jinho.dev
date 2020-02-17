@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: url,
     title: 'Blog by Jinho Hong',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'AWS, Node.js, Typesript 를 주로 사용하며 Nest.js, Golang 에 대해서 관심을 가지고 있는 개발자입니다. 개발 관련 잡담을 좋아합니다. 관심이 필요합니다 :) ',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [

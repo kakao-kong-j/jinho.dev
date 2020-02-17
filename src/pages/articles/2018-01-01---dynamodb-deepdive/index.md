@@ -21,16 +21,27 @@ NoSQL 디자인에는 RDBMS 디자인과 다른 사고 방식이 요구됩니다
 
 ![](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/images/AccessPatternList.png)
 
-**DynamoDB 애플리케이션에서는 가능한 적은 수의 테이블을 유지해야 합니다.**
-
-- 대부분의 잘 설계된 애플리케이션은 단 하나의 테이블만 요구합니다.
+- **DynamoDB 애플리케이션에서는 가능한 적은 수의 테이블을 유지해야 합니다. 대부분의 잘 설계된 애플리케이션은 단 하나의 테이블만** 요구합니다.
 - 1 application - 1 Table
-- 가격의 개선 - table 삭제는 무료 - TTL은 무료 - 그러므로 모든 데이터에 TTL을 추천
+
+  - 가격의 개선
+    - table 삭제는 무료
+    - TTL은 무료
+      - 그러므로 모든 데이터에 TTL을 추천
   - 데이터 무결성
     - Transaction이 생겼지만 DynamoDB내에 비동기적 요소때문에 무결성이 깨질 수 도 있습니다.
   - composite key
 
+  ![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/10/04/sort-keys-dynamodb-5.gif)
 
-    ![](https://d2908q01vomqb2.cloudfront.net/887309d048beef83ad3eabf2a79a64a389ab1c9f/2018/10/04/sort-keys-dynamodb-5.gif)
+  `[country]#[region]#[state]#[county]#[city]#[neighborhood]`
 
-    `[country]#[region]#[state]#[county]#[city]#[neighborhood]`
+## REFERENCE
+
+[https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/bp-modeling-nosql-B.html](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/bp-modeling-nosql-B.html)
+
+[https://aws.amazon.com/ko/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/](https://aws.amazon.com/ko/blogs/database/using-sort-keys-to-organize-data-in-amazon-dynamodb/)
+
+[https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/bp-sort-keys.html](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/bp-sort-keys.html)
+
+[https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/bp-general-nosql-design.html](https://docs.aws.amazon.com/ko_kr/amazondynamodb/latest/developerguide/bp-general-nosql-design.html)
