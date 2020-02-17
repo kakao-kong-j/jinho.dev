@@ -3,7 +3,7 @@ title: 거침없는 자바스크립트 1회
 date: '2019-10-22T00:00:00.000Z'
 layout: post
 draft: false
-path: '/posts/Async-Codespitz/'
+path: '/posts/Async-Codespitz-1/'
 category: 'Development'
 tags:
   - 'CodeSpitz'
