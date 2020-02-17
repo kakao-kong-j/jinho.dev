@@ -4,6 +4,7 @@ const pxtorem = require('postcss-pxtorem')
 const url = 'https://jinho.dev'
 
 module.exports = {
+  pathPrefix: 'jinho.dev',
   siteMetadata: {
     url,
     siteUrl: url,
