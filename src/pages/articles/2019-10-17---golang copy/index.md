@@ -1,10 +1,13 @@
 ---
+title: golang 입문
+date: '2019-10-17T00:00:00.000Z'
 layout: post
-title: "Start Go study 1 일차"
-author: "jinho hong"
-categories: development
-tags: [development, golang]
-image: gopher.jpg
+draft: true
+path: '/posts/go-lanh/'
+category: 'Development'
+tags:
+  - 'AWS'
+description: 'golang 입문'
 ---
 
 # 유니코드 직접 처리

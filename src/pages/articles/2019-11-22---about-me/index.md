@@ -1,10 +1,13 @@
 ---
+title: About me
+date: '2019-11-22T00:00:00.000Z'
 layout: post
-title: " about me"
-author: "jinho hong"
-categories: development
-tags: [development, essay]
-image: about-me.jpg
+draft: true
+path: '/posts/about-me/'
+category: 'Retrospect'
+tags:
+  - 'Retrospect'
+description: '첫 회사 및 개발 경험을 회고합니다.'
 ---
 
 # 동료가 보는 나

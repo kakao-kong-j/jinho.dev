@@ -1,10 +1,14 @@
 ---
+title: 거침없는 자바스크립트 1회
+date: '2019-10-22T00:00:00.000Z'
 layout: post
-title: "코드 스피츠 1회차 "
-author: "jinho hong"
-categories: development
-tags: [development, study, javascript]
-image: codespitz.jpeg
+draft: true
+path: '/posts/Async-Codespitz/'
+category: 'Development'
+tags:
+  - 'CodeSpitz'
+  - 'Javascript'
+description: ''
 ---
 
 # JavaScript Pipeline
