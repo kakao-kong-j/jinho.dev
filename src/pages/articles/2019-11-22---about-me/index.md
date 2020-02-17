@@ -2,7 +2,7 @@
 title: About me
 date: '2019-11-22T00:00:00.000Z'
 layout: post
-draft: true
+draft: false
 path: '/posts/about-me/'
 category: 'Retrospect'
 tags:
@@ -30,7 +30,7 @@ description: '첫 회사 및 개발 경험을 회고합니다.'
 
 ---
 
-![](../assets/img/think.jpg)
+![](./think.jpg)
 
 ---
 
@@ -74,9 +74,9 @@ Terraform으로 Infra로 옮기는 작업 이후에 Graphql 개선 작업을 하
 
 발표를 진행 전, 사람들에게 어떤 내용을 전달할지, 어떻게 전달할지 등을 많이 고민하면서 발표를 준비하였습니다.
 
-발표 준비 & 발표와 관련된 글은 [여기](https://jinho.dev/development/graphql-meetup.html)에서 보실 수 있습니다.
+발표 준비 & 발표와 관련된 글은 [여기](https://jinho.dev/posts/Schema-First-to-Code-First)에서 보실 수 있습니다.
 
-![](../assets/img/meetup.jpg)
+![](./meetup.jpg)
 
 발표 이외에도 꾸준히 기술 관련 Article을 쓰면서 제가 가지고 있는 지식을 좀 더 많은 사람들에게 알리려고 노력하였습니다.
 

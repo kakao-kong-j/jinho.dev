@@ -2,7 +2,7 @@
 title: golang 입문
 date: '2019-10-17T00:00:00.000Z'
 layout: post
-draft: true
+draft: false
 path: '/posts/go-lanh/'
 category: 'Development'
 tags:
