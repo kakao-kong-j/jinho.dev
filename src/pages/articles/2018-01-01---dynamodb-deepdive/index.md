@@ -8,7 +8,7 @@ category: 'Development'
 tags:
   - 'AWS'
   - 'DynamoDB'
-description: ''
+description: 'DynamoDB에 대해서 심도 깊게 알아봅시다'
 ---
 
 ## **NoSQL 설계의 두 가지 주요 개념**

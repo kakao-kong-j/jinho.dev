@@ -176,7 +176,7 @@ module.exports = {
       resolve: 'gatsby-plugin-favicon',
       options: {
         logo: './favicon.png',
-        appName: 'jinho.dev', // Inferred with your package.json
+        appName: 'jinho.dev',
         appDescription: null,
         developerName: 'jinho hong',
         developerURL: 'https://github.com/jinhokong',
