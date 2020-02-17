@@ -30,8 +30,8 @@ module.exports = {
     author: {
       name: 'Jinho Hong',
       email: 'tpdleps@gmail.com',
-      telegram: '#',
-      twitter: '#',
+      linkedin: 'jinho-hong',
+      facebook: 'kongkongkongkongkongkongkongkong',
       github: 'jinhokong',
       rss: '#',
       vk: '#',

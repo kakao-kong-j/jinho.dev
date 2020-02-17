@@ -6,8 +6,8 @@ class Links extends React.Component {
   render() {
     const author = this.props.data
     const links = {
-      telegram: author.telegram,
-      twitter: author.twitter,
+      linkedin: author.linkedin,
+      facebook: author.facebook,
       github: author.github,
       vk: author.vk,
       rss: author.rss,
@@ -19,11 +19,11 @@ class Links extends React.Component {
         <ul className="links__list">
           <li className="links__list-item">
             <a
-              href={`https://www.twitter.com/${links.twitter}`}
+              href={`https://www.facebook.com/${links.facebook}`}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="icon-twitter" />
+              <i className="icon-facebook" />
             </a>
           </li>
           <li className="links__list-item">
@@ -36,28 +36,15 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
-            <a
-              href={`https://www.vk.com/${links.vk}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="icon-vkontakte" />
-            </a>
-          </li>
-        </ul>
-        <ul className="links__list">
-          <li className="links__list-item">
             <a href={`mailto:${links.email}`}>
               <i className="icon-mail" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`telegram:${links.telegram}`}>
-              <i className="icon-paper-plane" />
+            <a href={`https://www.linkedin.com/in/${links.linkedin}`}>
+              <i className="icon-linkedin" />
             </a>
           </li>
-        </ul>
-        <ul className="links__list">
           <li className="links__list-item">
             <a href={links.rss}>
               <i className="icon-rss" />
