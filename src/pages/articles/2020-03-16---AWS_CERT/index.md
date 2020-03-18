@@ -40,3 +40,45 @@ description: 'AWS SAA를 준비하면서 많이 틀렸던 개념을 정리합니
 |      루트 디바이스 볼륨      |  유지  |                       유지                       |                       유지                       |   삭제    |
 |     RAM(메모리의 콘텐츠)     |  삭제  |                       삭제                       |                       유지                       |   삭제    |
 
+- EC2에서 다른 AWS 서비스를 사용할려면 IAM 역할을 IAM 사용자가 아닌 EC2 인스턴스에 연결해야 합니다.
+- ACL(네트워크 액세스 제어 목록)에서 한개 이상의 서브넷에서 트래픽을 제어하는 방화벽 역할을 하는 VPC의 보안 옵션 계층입니다.
+  - ACL은 가장 낮은 규칙부터 높은 규칙까지 규칙 번호로 평가되며 일치하는 규칙이 발견되면 즉시 실행합니다.
+- Application load Balance / Network Load Balance
+  | | Application Load Balance | Network Load Balance |
+  | :-------------------------: | :----------------------: | :------------------: |
+  | Layer | 7 | 4 |
+  | Protocal | Http/Https | TCP/UDP/TLS |
+  | Health Check | O | O |
+  | CloudWatch Metrix | O | O |
+  | Logging | O | O |
+  | Zonal Fail-Over | O | O |
+  | Connection Draining | O | O |
+  | WebSocket | O | O |
+  | Same Instance Multiple Port | O | O |
+  | Path based Route | O | X |
+  | Target Lambda | O | X |
+  | Target IP Address | O | O |
+  | Host based Route | O | X |
+  | SNI | O | X |
+- DLM(Data LifeCycle Manager)를 사용하면 EBS 스냅샷 생성을 자동화 할 수 있습니다.
+- 탄력적 네트워크 인터페이스 (ENI)는 가상 네트워크 카드를 나타내는 VPC의 논리적 네트워킹 구성 요소입니다. 다음과 같은 방법으로 EC2 인스턴스에 네트워크 인터페이스를 연결할 수 있습니다.
+  - 실행 중일 때 (hot attach)
+  - 중지되었을 때 (warm attach)
+  - 인스턴스가 시작될 때 (cold attach)
+- RAID 상태인 EC2에서 DB를 운영중일때 백업을 하는 방식
+  1. RAID를 쓰지 못하게한다.
+  2. 모든 캐시를 디스크로 플러시
+  3. 파일 시스템 정지
+  4. 각 EBS볼륨의 스냅 샷 생성
+- S3 버킷에 호스팅 된 웹 사이트로 트래픽을 라우팅하기 위한 필수 조건
+  - 버킷은 도메인 또는 하위 도메인과 이름이 같아야 함.
+  - Route53에 도메인 이름이 등록되어야 합니다.
+- Pilot Light -> 확인
+- AWS 와 고객간의 책임 분담
+  | | AWS | 고객 |
+  |:---------: |:----------------------------------------------------: |:-------------------------------------------------------------------------: |
+  | 책임 범위 | 클라우드의 보안 | 클라우드에서의 보안 |
+  | OS | 인프라와 관련된 결함 수정과 패치에 대한 책임 | 게스트 OS와 애플리케이션 패치에 대한 책임 |
+  | 구성 관리 | 인프라 디바이스의 구성을 유지 관리 | 자체 게스트 운영 체제, 데이터베이스 및 애플리케이션의 구성에 대한 책임 |
+  | | 하드웨어의 물리적 보안 네트워크 인프라 가상화 인프라 | AMI 운영체제 응용 프로그램 전송중인 데이터 유휴 데이터 데이터 저장소 정책 |
+-
