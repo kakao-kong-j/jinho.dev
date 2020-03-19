@@ -47,7 +47,7 @@ description: 'AWS SAA를 준비하면서 많이 틀렸던 개념을 정리합니
   - ACL은 가장 낮은 규칙부터 높은 규칙까지 규칙 번호로 평가되며 일치하는 규칙이 발견되면 즉시 실행합니다.
 
 - Application load Balance / Network Load Balance
-  | | Application Load Balance | Network Load Balance |
+  | . | Application Load Balance | Network Load Balance |
   | :-------------------------: | :----------------------: | :------------------: |
   | Layer | 7 | 4 |
   | Protocal | Http/Https | TCP/UDP/TLS |
@@ -85,7 +85,7 @@ description: 'AWS SAA를 준비하면서 많이 틀렸던 개념을 정리합니
   - Route53에 도메인 이름이 등록되어야 합니다.
 
 - AWS 와 고객간의 책임 분담
-  | | AWS | 고객 |
+  | . | AWS | 고객 |
   |:---------: |:----------------------------------------------------: |:-------------------------------------------------------------------------: |
   | 책임 범위 | 클라우드의 보안 | 클라우드에서의 보안 |
   | OS | 인프라와 관련된 결함 수정과 패치에 대한 책임 | 게스트 OS와 애플리케이션 패치에 대한 책임 |
