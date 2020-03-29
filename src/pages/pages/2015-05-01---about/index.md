@@ -52,14 +52,6 @@ Terraform과 IAC를 주도적으로 팀 개발 문화에 녹여낸 경험이 있
 
 FITSME 는 "나만을 위한 화장품 추천 서비스"라는 주제로 화장품 및 리뷰를 분석하여 사용자에게 맞는 화장품을 추천 및 구매 하는 플랫폼입니다.
 
-- 분산되어 있는 Repository를 MonoRepo 형식으로 개선하여 15개의 Repo를 6개로 줄여 개발 환경 개선에 주도적으로 참여
-- AWS Personalize를 이용한 개인화 추천 시스템을 주도적으로 설계 및 개발하여 15%의 사용자 만족도를 증가
-- 기존의 Schema First 구조의 GraphQL 을 Code First의 구조로 Migration작업을 주도적으로 진행
-- RDB사용을 위한 Prisma 서비스를 Middleware 로 하는 Architecture 설계
-- EventBus 를 활용하여 Event message 기반의 Architecture 를 구성
-- 기존 AWS ElasticSearch 에서 ElasticCloud 로 Migration 작업을 진행
-- Crawler 및 외부 API 를 통해 5만여개의 뷰티 데이터 확보 및 관리
-
 ![Fitsme.jpg](./Fitsme.jpg)
 
 ---
@@ -72,12 +64,6 @@ COSME
 
 COSMEE는 "보상이 있는 뷰티 SNS"라는 타이틀로 사용자들의 활동을 측정하여 암호화 폐(COSM)으로 보상을 받을 수 있는 플랫폼입니다.
 
-- Terraform을 이용한 IAC 환경을 주도적으로 구축
-- Lambda@edge 와 MediaConvert를 이용한 미디어 리소스 최적화를 위한 Architecture 설계 및 작업을 주도적으로 구축
-- 빠른 개발과 기능 확장을 위한 Serverless Architecture 구축
-- Kinesis와 Athena를 이용한 Data Lake 구축
-- 블록체인 앱 모범 사례로 인정받아 삼성 갤럭시S10에 D-App으로 탑재
-
 ![Cosmee.jpeg](./Cosmee.jpeg)
 
 ---
@@ -89,10 +75,6 @@ HuiSeoul
 [https://apple.co/2n1Q9ir](https://apple.co/2n1Q9ir)
 
 HuiSeoul은 채팅 기반의 중국 뷰티 역직구 앱서비스입니다.
-
-- AWS China Region 운영 경험
-- 중국주요배송사(YTO,STO,ZTO)의 배송 요청 자동화 설계에 참여
-- SQS 를 통한 Message기반의 Architecture 구축에 참여
 
 ![Huiseoul.jpg](./Huiseoul.jpg)
 
@@ -111,18 +93,6 @@ US Product / Server Engineer
 **트릴리어네어 , 블랜디드**
 
 플랫폼팀 / Manager, Backend Engineer
-
----
-
-# 학력
-
-2013 ~ 2018
-
-**동서울대학교**
-
-컴퓨터 소프트웨어학과
-
-4.0 / 4.5
 
 ---
 
@@ -162,8 +132,7 @@ Lambda@edge를 이용하여 On-demand Image Resizing을 어떻게 구현 하는�
 
 ### 2018년 7월 AWS Amathon 2018 Amathon prize
 
-다수의 Lambda 로 동작하는 GraphQL 기반의 마이크로서비스 아키텍쳐 API
-FrameWork 만들기라는 주제로 진행하여 Amathon prize 를 수상하였습니다.
+다수의 Lambda 로 동작하는 GraphQL 기반의 마이크로서비스 아키텍쳐 API FrameWork 만들기라는 주제로 진행하여 Amathon prize 를 수상하였습니다.
 
 관련 자료 : [https://github.com/cloudinertia/amathon2018-graphql-lambda](https://github.com/cloudinertia/amathon2018-graphql-lambda)
 
@@ -171,10 +140,7 @@ FrameWork 만들기라는 주제로 진행하여 Amathon prize 를 수상하였�
 
 ### 2019년 10월 AWSKUG GraphQL 발표
 
-AWS 한국 사용자 그룹 중 GraphQL 모임
-에서 “Schema-First에서 Code-First로
-Migration 하기” 라는 주제로 발표하였습
-니다.
+AWS 한국 사용자 그룹 중 GraphQL 모임에서 “Schema-First에서 Code-First로 Migration 하기” 라는 주제로 발표하였습니다.
 
 발표 자료 : [http://bit.ly/30TvtYb](http://bit.ly/30TvtYb)
 
