@@ -6,6 +6,8 @@ path: '/about'
 
 # Hong Jin ho
 
+[RESUME](https://www.notion.so/jinhohong/Hong-Jin-ho-1cc38b1de76c4f0ca24c0a427c62ab74)
+
 ## 배움의 속도가 빠른 개발자
 
 **Key Expertise**
