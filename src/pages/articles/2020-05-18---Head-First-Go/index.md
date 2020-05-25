@@ -1,5 +1,5 @@
 ---
-title: 
+title: Head First Go 를 읽고
 date: '2020-05-18T00:00:00.000Z'
 layout: post
 draft: false
