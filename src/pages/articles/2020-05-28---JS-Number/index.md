@@ -2,7 +2,7 @@
 title: 자바스크립트에서 숫자는 어떻게 동작할까요
 date: '2020-05-30T00:00:00.000Z'
 layout: post
-draft: true
+draft: false
 path: '/posts/JS-Number/'
 category: 'Development'
 tags:
@@ -62,5 +62,11 @@ Number.isSafeInteger =
 위와 같이 사용하실수 있습니다.
 
 - Number.EPSILON
+
+> Number.EPSILON는 Javascript가 식별할 수 있는 가장 작은 값입니다. 값은 2^-52 입니다. EPSILON보다 작은 수를 더해도 같은 수가 나옵니다.
+
+# Outro
+
+간단하게 Javascript 의 스팩중 Number를 매우 간략하게 살펴보았습니다. 이 글을 정리하면서 Javascript의 기초에 대해 좀 더 알게되는 계기가 되었씁니다.
 
 **본 글은 인사이트 사의 '자바스크립트는 왜 그 모양일까?' 를 요약 및 정리 한 글입니다.**
