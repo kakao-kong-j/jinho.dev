@@ -2,7 +2,7 @@
 title: 쿠알못이 정리하는 kubernetes -1
 date: '2020-06-05T00:00:00.000Z'
 layout: post
-draft: true
+draft: false
 path: '/posts/kubernetes-1/'
 category: 'Development'
 tags:
@@ -12,6 +12,8 @@ description: '쿠버네티스를 처음 공부하는 사람이 바라본 쿠버�
 ---
 
 # Intro
+
+쿠버네티스(이하 k8s)에 대한 이야기를 많이 듣게 되면서 배워봐야지 생각은 하게 되었지만 막상 k8s에 대해서 공부나 연습을 해본적이 없어서 이번 기회에 공부를 시작하게되었습니다. 공부는 SKplanet Tacademy 에서 제공하고 있는 [쿠버네티스 살펴보기](https://www.youtube.com/playlist?list=PL9mhQYIlKEhdTu31zyb_QelQMaqFGgASA) 를 통해 공부 하게되었습니다. 현재 글과 다음 글 들에서 위 영상의 내용을 정리할 예정입니다.
 
 # Once upon a time ...
 
@@ -109,6 +111,18 @@ EX) Heroku, Netlify, AWS EB, GCP AppEngine
   - 쉽게 서비스의 접근
 - 로깅, 모니터링
 
+# Outro
+
 과연 이렇게 진화 하게된 이유는 무엇이 었을까요?
 
 서버의 상태를 관리하기위한 노력입니다.
+
+좀 더 자세히 이야기 하자면 아래의 가치를 얻기 위해 계속 해서 서버 운영에 대한 기술이 진화하게 되었습니다.
+
+- 명령어가 아닌 코드와 설정을 사용
+- 격리된 환경을 이용하여 독립적인 실용
+- Immutable하게 Application을 관리하고 스토리지 또는 로그 관리
+- 이미지를 쉽고 편리하게 생성 및 사용
+- 확장 가능한 설계
+
+앞으로는 이러한 가치들이 어떻게 k8s 에서 얻을 수 있는지 알아보도록 하겠습니다.
