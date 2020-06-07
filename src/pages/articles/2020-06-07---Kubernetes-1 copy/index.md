@@ -1,0 +1,22 @@
+---
+title: 쿠알못이 정리하는 kubernetes - 2
+date: '2020-06-07T00:00:00.000Z'
+layout: post
+draft: true
+path: '/posts/kubernetes-2/'
+category: 'Development'
+tags:
+  - 'Docker'
+  - 'Kubernetes'
+description: '쿠버네티스를 처음 공부하는 사람이 바라본 쿠버네티스를 정리합니다.'
+---
+
+# Intro
+
+쿠버네티스(이하 k8s)에 대한 이야기를 많이 듣게 되면서 배워봐야지 생각은 하게 되었지만 막상 k8s에 대해서 공부나 연습을 해본적이 없어서 이번 기회에 공부를 시작하게되었습니다. 공부는 SKplanet Tacademy 에서 제공하고 있는 [쿠버네티스 살펴보기](https://www.youtube.com/playlist?list=PL9mhQYIlKEhdTu31zyb_QelQMaqFGgASA) 를 통해 공부 하게되었습니다. 현재 글과 다음 글 들에서 위 영상의 내용을 정리할 예정입니다.
+
+이번 글에서는 Kubernates(이하 k8s) 가 왜 발생하게 되었고 어떤 구조로 되어있는지 알아보도록 하겠습니다.
+
+# Before K8S
+
+Docker를 사용하시다보면 사용법이 매우 간단하고 직관적으로 되어 있는 것을 알 수 있습니다. 하지만 Docker 에도 빠져있는 부분이 있습니다. 배포와 관련된 기능들이 빠져 있습니다. Docker 는 배포와 관련된 사항은 서드파티 툴을 이용해서 진행하도록 권장하고 있습니다. 서버가 한 두개일 때는 배포를 진행하거나 간단한 툴을 이용해서 배포를 진행할 수 있습니다. 하지만 배포 해야하는 서버의 갯수가 수십, 수백 ,수천 단위라면 어떨까요. 이럴 경우 배포 전략이 매우 복잡해 질 수 있습니다. 그래서 사람들은 이러한 배포를 효과적으로 관리해 주는 툴을 만들게 되었습니다. 이걸 우리는 orchestration이라고 부룹니다.

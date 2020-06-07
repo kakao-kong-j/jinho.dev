@@ -1,5 +1,5 @@
 ---
-title: 쿠알못이 정리하는 kubernetes -1
+title: 쿠알못이 정리하는 kubernetes - 1
 date: '2020-06-05T00:00:00.000Z'
 layout: post
 draft: false
